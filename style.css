@@ -27,7 +27,7 @@ div.cover{
     font-family: var(--font1);
 }
 div.cover img.cover-profile{
-    margin-top:60px
+    margin-top:70px
 }
 /* separer pour que cela corresponde également au frame de fin de page */
 div img.cover-profile{
