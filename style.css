@@ -28,8 +28,10 @@ body{
 div.cover{
     /* TEST */
     background-color : blue;
-    background: url(cover_overlay.png) no-repeat center/100% 100%,
+    background-size : cover;
+    /* background: url(cover_overlay.png) no-repeat center/100% 100%,
                 url(cover.jpg) no-repeat center/cover;
+    */
     position: relative;
     font-family: var(--font1);
 }
