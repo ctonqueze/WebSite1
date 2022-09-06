@@ -27,11 +27,10 @@ body{
 
 div.cover{
     /* TEST */
-    background-color : blue;
-    background-size : cover;
-    /* background: url(cover_overlay.png) no-repeat center/100% 100%,
+    background-color : var(--color4);
+    /* background-size : cover; */
+    background: url(cover_overlay.png) no-repeat center/100% 100%,
                 url(cover.jpg) no-repeat center/cover;
-    */
     position: relative;
     font-family: var(--font1);
 }
@@ -80,11 +79,9 @@ div.cover-contact *:hover{
 }
 div.cover-contact-button {
     /* TEST */
-    background-color: red;
-padding-top: 35px;
-    /* margin-top: 35px;
-    margin-bottom: 45px; */
-padding-bottom: 45px;
+    /* background-color: red; */
+    padding-top: 35px;
+    padding-bottom: 45px;
 }
 a.contact-button{
     display: inline-block;
@@ -276,7 +273,7 @@ div.frame-texte p{
 div.portfolio-header{
     /* background-color: green; */
     background-color: var(--color4);
-    background: url(cover.jpg) no-repeat center 100%/cover;
+    background: url(cover.jpg) no-repeat center 70%/cover;
     min-height: 90px;
     min-width: 190px;
     padding: 10px 30px 10px 10px;
@@ -295,6 +292,7 @@ div.portfolio-header-contact-button{
     /* background-color:purple; */
     float:right;
     margin-top: 18px;
+    margin-bottom: 18px;
 }
 div.arianeLine{
     text-align: left;
