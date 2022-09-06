@@ -16,7 +16,8 @@
     --font2:Arial;
 }
 body{
-    /* background-color: green; */
+    /* TEST */
+    background-color: green;
     width: 100%;
     font-family: var(--font1);   
     text-align: center;
@@ -25,10 +26,11 @@ body{
 /* COVER */
 
 div.cover{
+    /* TEST */
     /*background: url(cover_overlay.png) no-repeat center/100% 100%,
                 url(cover.jpg) no-repeat center/cover;
     */
-    background: url(cover.jpg) no-repeat center/cover;
+    background-color : blue;
     position: relative;
     font-family: var(--font1);
 }
@@ -76,6 +78,8 @@ div.cover-contact *:hover{
     color: var(--color1);
 }
 div.cover-contact-button {
+    /* TEST */
+    background-color: red;
     margin-top: 35px;
     margin-bottom: 45px;
 }
