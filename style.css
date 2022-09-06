@@ -17,7 +17,7 @@
 }
 body{
     /* TEST */
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     font-family: var(--font1);   
     text-align: center;
@@ -28,9 +28,9 @@ body{
 div.cover{
     /* TEST */
     background-color : var(--color4);
-    /* background-size : cover; */
+    background-size: cover;
     background: url(cover_overlay.png) no-repeat center/100% 100%,
-                url(cover.jpg) no-repeat center/cover;
+                url(cover.jpg) no-repeat center/cover ;
     position: relative;
     font-family: var(--font1);
 }
@@ -78,7 +78,6 @@ div.cover-contact *:hover{
     color: var(--color1);
 }
 div.cover-contact-button {
-    /* TEST */
     /* background-color: red; */
     padding-top: 35px;
     padding-bottom: 45px;
@@ -127,6 +126,7 @@ p.separateur {
 }
 .diagonal-S1-S2 {
     box-sizing: border-box;
+    margin-top:-1px;
     border-top: 40px solid var(--color3);
     border-right: 100vw solid var(--color1);
 }
@@ -178,6 +178,7 @@ div.col60 a:hover{
 }
 .diagonal-S2-S3 {
     box-sizing: border-box;
+    margin-bottom:-1px;
     border-top: 40px solid var(--color1);
     border-right: 100vw solid var(--color3);
 }
@@ -265,6 +266,9 @@ div.frame-texte p{
         margin-right: auto;
     }
 
+    div.section1 p{
+        font-size: large;
+    }
 }
 
 
@@ -273,10 +277,11 @@ div.frame-texte p{
 div.portfolio-header{
     /* background-color: green; */
     background-color: var(--color4);
+    background-size: cover;
     background: url(cover.jpg) no-repeat center 70%/cover;
     min-height: 90px;
     min-width: 190px;
-    padding: 10px 30px 10px 10px;
+    padding: 10px;
 }
 div.portfolio-header-name{
     background-color:transparent;
@@ -356,9 +361,10 @@ div.portfolio-technologies{
 }
 div.portfolio-contenu img{
     background-color: grey;
-    margin: 20px;
+    margin: 20px 0px;
     width:70%;
-    max-width: 560px;
+    min-width: 160px;
+    max-width: 480px;
 }
 div.portfolio-contenu-lien *{
     /* background-color: green; */
@@ -369,3 +375,17 @@ div.portfolio-contenu-lien *{
 div.portfolio-contenu-lien *:hover{
     color: blue;
 }
+
+/* PORTFOLIO PAGES For MOBILE PHONES : */
+@media only screen and (max-width: 425px) {
+
+    div.portfolio-titre h1{
+        font-size: xx-large;
+    }
+    div.portfolio-titre h2{
+        font-size: large;
+    }
+}
+
+
+
