@@ -371,8 +371,8 @@ div.portfolio-technologies{
 div.portfolio-contenu img{
     background-color: grey;
     margin: 20px 0px;
-    width:70%;
-    min-width: 160px;
+    width:100%;
+    min-width: 200px;
     max-width: 480px;
 }
 div.portfolio-contenu-lien *{
